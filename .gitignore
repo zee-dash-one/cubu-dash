@@ -4,5 +4,10 @@
 
 # Cursor local agent folder (rules/settings stay on machine)
 .cursor/
-.vscode/
-.docs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Secrets (all secrets live only in .env)
+.env
+*.env
